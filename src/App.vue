@@ -37,7 +37,7 @@ export default {
     },
     fetchAssignmentData: function() {
       this.axios
-      .get('./data/home_assignment_fe_tls_data.json')
+      .get('./assets/data/home_assignment_fe_tls_data.json')
       .then(res => res.data)
       .then(res => {
         this.leadersData = res;
